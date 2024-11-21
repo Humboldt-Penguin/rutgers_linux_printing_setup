@@ -59,3 +59,37 @@ bash setup_rutgers_printers.sh
 - Email: zain.eris.kamal@rutgers.edu
 
 If there's an issue, message/ping me, submit an issue, or submit a pull request (you ungrateful fuck).
+
+&nbsp;
+
+---
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+[See You, Space Cowboy.](https://www.youtube.com/watch?v=4hhzLlclBi0)
+
+<!-- ![](https://files.catbox.moe/tpd6dp.png) -->
+
+<a href="https://files.catbox.moe/tpd6dp.png" target="_blank">
+    <img src="https://files.catbox.moe/tpd6dp.png" width="300">
+</a>
+
+[o7](https://files.catbox.moe/svwwxa.jpg)
