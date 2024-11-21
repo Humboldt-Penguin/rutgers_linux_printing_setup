@@ -1,4 +1,6 @@
-**MUST READ: YOU SHOULD NEVER RUN A RANDOM BASH SCRIPT YOU FIND ON THE INTERNET!!!!!**
+## **MUST READ:**
+
+**YOU SHOULD NEVER RUN A RANDOM BASH SCRIPT YOU FIND ON THE INTERNET!!!!!**
 
 Always read the code yourself, and/or run it through ChatGPT and ask:
 
@@ -16,7 +18,7 @@ For wireless printing from your personal device, Rutgers only provides setup wiz
 ---
 ## How to use:
 
-```bash
+```shell
 git clone [INSERT REPO LINK]
 bash setup_rutgers_printers.sh
 ```
@@ -27,7 +29,7 @@ bash setup_rutgers_printers.sh
 ## Useful links:
 
 - Repo shortcut link:
-	- [TODO add a bitly link]
+	- [bit.ly/rutgers_linux_printing](https://bit.ly/rutgers_linux_printing)
 - See your printing credits/history:
 	- https://pcutapp.rad.rutgers.edu/
 - Rutgers wiki:
@@ -43,10 +45,10 @@ bash setup_rutgers_printers.sh
 ---
 ## TODO/ideas:
 
-- [x] Use IPPS over HTTPS?
-- [ ] Make a bitly
+- [x] ~~Use IPPS over HTTPS?~~
+- [x] ~~Make a bitly~~
 - [ ] Fuck around with the printer url some more. It's currently `ipps://${NETID}:${PASSWORD}@mobilityprint.rad.rutgers.edu:9164/printers/nb_bw`, honestly I never even tested if you need your netid/password, nor if you need the port number.
-- [ ] In `add_printers()`, we're running `lpadmin` with the flag `-m drv:///cupsfilters.drv/pwgrast.ppd` in order to add a printer with the "Generic IPP Everywhere Printer" driver. However, I'm running this on NixOS with KDE, I'm not sure if the same driver is available on Debian/Arch.
+- [ ] In `add_printers()`, we're running `lpadmin` with the flag `-m drv:///cupsfilters.drv/pwgrast.ppd` in order to add a printer with the "Generic IPP Everywhere Printer" driver. However, I only tested this on NixOS with KDE, I'm not sure if the same driver is available on Debian/Arch. I'm also not sure if this is the best driver for Rutgers printers either.
 
 &nbsp;
 
@@ -55,6 +57,5 @@ bash setup_rutgers_printers.sh
 
 - Discord: alci6038
 - Email: zain.eris.kamal@rutgers.edu
-- Subscribe to my onlyfans: TODO
 
 If there's an issue, message/ping me, submit an issue, or submit a pull request (you ungrateful fuck).
