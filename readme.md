@@ -18,10 +18,17 @@ For wireless printing from your personal device, Rutgers only provides setup wiz
 ---
 ## How to use:
 
+[Video demo](https://files.catbox.moe/3vv4yw.mp4)
+
 ```shell
-git clone [INSERT REPO LINK]
+git clone https://github.com/Humboldt-Penguin/rutgers_linux_printing_setup.git
+cd rutgers_linux_printing_setup
 bash setup_rutgers_printers.sh
 ```
+
+You will be prompted with an interactive menu of choices like this (no code/commands will be run until you choose an option):
+
+![](https://files.catbox.moe/8bmjql.png)
 
 &nbsp;
 
