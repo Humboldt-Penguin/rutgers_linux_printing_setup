@@ -47,7 +47,7 @@ bash setup_rutgers_printers.sh
 
 - [x] ~~Use IPPS over HTTPS?~~
 - [x] ~~Make a bitly~~
-- [ ] Fuck around with the printer url some more. It's currently `ipps://${NETID}:${PASSWORD}@mobilityprint.rad.rutgers.edu:9164/printers/nb_bw`, honestly I never even tested if you need your netid/password, nor if you need the port number.
+- [ ] Fuck around with the printer url some more. It's currently `ipps://${NETID}:${PASSWORD}@mobilityprint.rad.rutgers.edu:9164/printers/nb_bw`, honestly I never even tested if you need your netid/password, nor if you need the port number. [This link](https://dgsdtech.yale.edu/printing/installing-papercut-client-and-printers-on-mac/#:~:text=First%20print/enter,in%20my%20keychain%E2%80%9D) suggests you can skip the netid/password in printer URL authenticate later on?
 - [ ] In `add_printers()`, we're running `lpadmin` with the flag `-m drv:///cupsfilters.drv/pwgrast.ppd` in order to add a printer with the "Generic IPP Everywhere Printer" driver. However, I only tested this on NixOS with KDE, I'm not sure if the same driver is available on Debian/Arch. I'm also not sure if this is the best driver for Rutgers printers either.
 
 &nbsp;
