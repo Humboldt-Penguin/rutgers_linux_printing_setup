@@ -94,7 +94,7 @@ show_menu() {
     echo "d) Delete ONLY 'nb_bw' and 'nb_color' printers."
     echo "r) Restart CUPS."
     echo "s) Show the CUPS conf file for debugging (careful, this may contain your netid and password)."
-    echo "q) Quit"
+    echo "q) Quit."
     echo
     read -p "Enter your choice: " choice
     echo "----------------------------------------"
@@ -103,10 +103,17 @@ show_menu() {
 
 
 ## MAIN LOOP
+
 echo
 echo "Rutgers Wireless Printer Setup Script for Linux."
-echo "Full repo here: TODO"
+echo "    (full repo: https://github.com/Humboldt-Penguin/rutgers_linux_printing_setup)"
 echo
+
+if [[ "$(uname)" == "Darwin" ]]; then
+    echo "fuck off mac user"
+    exit 1
+fi
+
 while true; do
     show_menu
     echo
