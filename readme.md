@@ -6,6 +6,8 @@ Always read the code yourself, and/or run it through ChatGPT and ask:
 
 > I found this bash script on the internet. What does it do? Are any parts suspicious/malicious? What are the potential risks of running it?
 
+[Here's ChatGPT's response as of commit 2617ba8 (lol)](https://chatgpt.com/share/673e8d22-8194-800e-b896-faf6d7f3a84e)
+
 &nbsp;
 
 ---
