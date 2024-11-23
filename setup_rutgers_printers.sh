@@ -110,7 +110,7 @@ echo "    (full repo: https://github.com/Humboldt-Penguin/rutgers_linux_printing
 echo
 
 if [[ "$(uname)" == "Darwin" ]]; then
-    echo "fuck off mac user"
+    echo "This is not compatible with MacOS! Please see the official guide: https://ithelp.rutgers.edu/sp?id=kb_article_view&sysparm_article=KB0012543&sys_kb_id=0130e39c1b025e10637f2f82b24bcb6f&spa=1#mcetoc_1hgge536b3f"
     exit 1
 fi
 
@@ -123,8 +123,7 @@ while true; do
         d) delete_printers ;;
         r) restart_cups ;;
         s) show_printer_conf ;;
-        # q) echo "Goodbye!"; exit ;;
-        q) echo "Go fuck yourself!"; exit ;;
+        q) echo "Goodbye!"; exit ;;
         *) echo "Invalid option. Please try again." ;;
     esac
     echo
